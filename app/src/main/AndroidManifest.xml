@@ -14,7 +14,10 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".RecycleActivity"
+            android:name=".recycleview.LinearRecycleViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recycleview.RecycleActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
